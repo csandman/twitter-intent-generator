@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Your Title Here</title>
+    <meta name="author" content="Author Name Here" />
+    <meta name="description" content="Your Description Here" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./noscript.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
+    
+    <script src="./page_scripts.js"></script>
+  </head>
+  <body>
+    <noscript>
+      <h3>Something went wrong :(</h3>
+      <p>You need to enable Javascript to use this website</p>
+      <p>
+        <a href="https://www.enable-javascript.com/" target="_blank">
+          Click here for instructions
+        </a>
+      </p>
+    </noscript>
+    <h2>Twitter intent generator (With Merge Tags)</h2>
+    <div class="body-content">
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Tweet Text</label>
+          <textarea
+            rows="4"
+            class="form-control"
+            id="tweet-field"
+            placeholder="Enter tweet text with *|MERGE|* *|TAGS|*"
+          ></textarea>
+          <small id="character_remaining" class="form-text text-muted"></small>
+        </div>
+        <div class="form-group">
+          <label>Hashtags (Optional)</label>
+          <input
+            id="hashtag-field"
+            type="text"
+            class="form-control"
+            placeholder="awesome,hashtag,list"
+          />
+          <small class="form-text text-muted"
+            >Enter the Hashtags you'd like to attach to your tweet as a comma
+            separated list</small
+          >
+        </div>
+        <div class="form-group">
+          <label>URL (Optional)</label>
+          <input
+            id="url-field"
+            type="url"
+            class="form-control"
+            placeholder="https://www.example.com"
+          />
+          <small class="form-text text-muted"
+            >This URL will be added to the end of your tweet (must start with
+            http:// or https://)</small
+          >
+        </div>
+        <div class="form-group">
+          <label>Via (Optional)</label>
+          <input
+            id="via-field"
+            type="text"
+            class="form-control"
+            placeholder="bags4mycause"
+          />
+          <small class="form-text text-muted"
+            >Enter your twitter username and it will appear as “via @username”
+            at the end of your tweet</small
+          >
+        </div>
+        <button class="btn btn-primary">Generate Twitter Link</button>
+
+        <div id="intent">Link Here</div>
+      </form>
+    </div>
+  </body>
+</html>

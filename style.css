@@ -1,0 +1,22 @@
+.btn-primary {
+  color: white !important;
+}
+
+.body-content {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+#intent {
+  margin: 1rem 0;
+  border: 1px solid lightgray;
+  padding: .5rem;
+  box-sizing: border-box;
+  border-radius: 4px;
+  word-wrap: break-word;
+}
