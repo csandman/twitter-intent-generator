@@ -4,6 +4,15 @@
   align-items: center;
 }
 
+h1 {
+  margin-bottom: .75rem;
+}
+
+h2 {
+  display: flex;
+  justify-content: space-between;
+}
+
 .btn-primary {
   color: white !important;
 }
