@@ -1,3 +1,9 @@
+.header-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .btn-primary {
   color: white !important;
 }
@@ -5,11 +11,6 @@
 .body-content {
   max-width: 500px;
   margin: 0 auto;
-}
-
-h2 {
-  margin: 2rem auto;
-  text-align: center;
 }
 
 #intent {
